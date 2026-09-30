@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.campo {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.campo label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #555;
+  font-weight: bold;
+}
+
+.campo input, .campo select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.icono {
+  font-size: 60px;
+  margin-top: 15px;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pantalla {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #333;
+  font-size: 15px;
+}

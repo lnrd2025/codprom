@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Entregas del Restaurante</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>Simulador de Entregas del Restaurante 🍕</h1>
+
+    <!-- Selección de la orden -->
+    <div class="campo">
+      <label>Nombre del Cliente / Orden:</label>
+      <input type="text" id="nombreOrden" value="Orden #1">
+    </div>
+
+    <div class="campo">
+      <label>Elige tu Bebida:</label>
+      <select id="selectBebida">
+        <option value="🥤 Refresco">🥤 Refresco</option>
+        <option value="🧃 Jugo Natural">🧃 Jugo Natural</option>
+        <option value="💧 Agua Mineral">💧 Agua Mineral</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Elige tu Plato Principal:</label>
+      <select id="selectPlato">
+        <option value="🍕 Pizza">🍕 Pizza</option>
+        <option value="🍔 Hamburguesa">🍔 Hamburguesa</option>
+        <option value="🌭 Hot Dog">🌭 Hot Dog</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label>Elige tu Postre:</label>
+      <select id="selectPostre">
+        <option value="🍨 Helado">🍨 Helado</option>
+        <option value="🍰 Torta">🍰 Torta</option>
+        <option value="🍮 Flan">🍮 Flan</option>
+      </select>
+    </div>
+
+    <button id="btnIniciar">Iniciar Entrega de Orden</button>
+
+    <!-- Muestra el icono y mensaje en pantalla -->
+    <div id="iconoEstatus" class="icono">👨‍🍳</div>
+    <div id="pantalla">Elige tu menú y haz clic en Iniciar.</div>
+
+    <!-- Pie de página con tu crédito y enlace a GitHub -->
+    <p class="creditos">
+      Desarrollado por <a href="https://github.com/lnrd2025" target="_blank" rel="noopener noreferrer">Leo Pasquale</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
